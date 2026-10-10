@@ -1,0 +1,8 @@
+{
+  "name": "logistics-metrics-typescript",
+  "private": true,
+  "type": "module",
+  "scripts": {"typecheck": "tsc --noEmit", "test": "tsx test/shipment_metrics.test.ts", "start": "tsx src/shipment_metrics.ts"},
+  "dependencies": {"zod": "^3.23.8"},
+  "devDependencies": {"tsx": "^4.19.0", "typescript": "^5.6.3"}
+}
